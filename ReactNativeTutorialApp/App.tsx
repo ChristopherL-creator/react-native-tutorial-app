@@ -1,13 +1,13 @@
 /* eslint-disable no-trailing-spaces */
 /* eslint-disable eol-last */
 /* eslint-disable prettier/prettier */
-import { StyleSheet, View } from 'react-native';
+import { StatusBar, StyleSheet, View } from 'react-native';
 import React from 'react';
 import MusicPlayer from './screens/MusicPlayer';
 
 const App = () => {
   return (
-    <View style={style.container}>
+    <View style={style.container}> 
       <MusicPlayer />
     </View>
   )
