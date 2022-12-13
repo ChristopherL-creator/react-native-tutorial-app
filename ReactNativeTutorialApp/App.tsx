@@ -10,8 +10,8 @@ const App = () => {
     <View style={style.container}> 
       <MusicPlayer />
     </View>
-  )
-}
+  );
+};
 
 export default App; 
 
